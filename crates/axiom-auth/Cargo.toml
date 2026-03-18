@@ -1,0 +1,25 @@
+[package]
+name        = "axiom-auth"
+version     = "0.1.0"
+edition     = "2021"
+description = "MSA / XBL / XSTS / Minecraft authentication for Axiom bridge"
+license     = "MIT OR Apache-2.0"
+
+[dependencies]
+tokio        = { version = "1",    features = ["full"] }
+reqwest      = { version = "0.12", features = ["json", "rustls-tls"], default-features = false }
+serde        = { version = "1",    features = ["derive"] }
+serde_json   = "1"
+thiserror    = "1"
+uuid         = { version = "1",    features = ["v4"] }
+base64       = "0.22"
+sha2         = "0.10"
+hmac         = "0.12"
+jsonwebtoken = "9"
+time         = { version = "0.3",  features = ["serde"] }
+tracing      = "0.1"
+dirs         = "5"
+
+[dev-dependencies]
+tokio   = { version = "1", features = ["full", "test-util"] }
+mockito = "1"

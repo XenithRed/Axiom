@@ -1,0 +1,59 @@
+# Axiom Bridge — default configuration
+# All values shown are the built-in defaults.
+
+[server]
+# UDP address Bedrock clients connect to
+a = "0.0.0.0:19132"
+# Java Edition server hostname
+b = "127.0.0.1"
+# Java Edition server port
+c = 25565
+# MOTD shown to Bedrock clients in the server list
+d = "Axiom Bridge"
+# Maximum concurrent players
+e = 100
+# Expose Prometheus metrics endpoint
+f = false
+# Metrics bind address (optional)
+# g = "127.0.0.1"
+# h = 9100
+
+[bridge]
+# Require Microsoft/Mojang authentication
+a = true
+# Chunk view radius sent to Bedrock clients
+b = 8
+# Max chunks per batch during initial load
+c = 256
+# Automatically convert Java resource packs for Bedrock clients
+d = true
+# Seconds between keep-alive packets
+e = 30
+# Enable zlib compression on Java upstream connection
+f = true
+# Compression threshold in bytes
+g = 256
+# Session timeout in minutes
+h = 10
+
+[rp]
+# Auto-convert Java resource packs to Bedrock format
+a = true
+# Directory to cache converted resource packs
+b = ".axiom/rp-cache"
+# Convert block/item models
+c = true
+# Convert sound definitions
+d = true
+# Path to a custom Bedrock resource pack to serve instead of converting
+# e = "./my-bedrock-pack"
+
+[log]
+# Log level: trace, debug, info, warn, error
+a = "info"
+# Colored terminal output
+b = true
+# Log to file (optional)
+# c = "axiom.log"
+# Output logs as JSON (for log aggregators)
+d = false

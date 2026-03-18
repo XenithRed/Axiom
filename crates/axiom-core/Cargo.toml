@@ -1,0 +1,19 @@
+[package]
+name        = "axiom-core"
+version     = "0.1.0"
+edition     = "2021"
+license     = "MIT OR Apache-2.0"
+
+[dependencies]
+bytes     = "1"
+tokio     = { version = "1", features = ["sync", "rt", "macros", "time"] }
+thiserror = "1"
+serde     = { version = "1", features = ["derive"] }
+tracing   = "0.1"
+uuid      = { version = "1", features = ["v4"] }
+bitflags  = "2"
+smallvec  = "1"
+ahash     = "0.8"
+
+[dev-dependencies]
+tokio = { version = "1", features = ["full", "test-util"] }
