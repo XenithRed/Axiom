@@ -1,0 +1,24 @@
+[package]
+name        = "axiom-inspector"
+version     = "0.1.0"
+edition     = "2021"
+license     = "MIT OR Apache-2.0"
+description = "CLI packet capture and analysis tool for Axiom"
+
+[[bin]]
+name = "inspector"
+path = "src/main.rs"
+
+[dependencies]
+bytes        = "1"
+tokio        = { version = "1", features = ["full"] }
+clap         = { version = "4", features = ["derive"] }
+serde        = { version = "1", features = ["derive"] }
+serde_json   = "1"
+thiserror    = "1"
+tracing      = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+chrono       = { version = "0.4", features = ["serde"] }
+hex          = "0.4"
+crossterm    = "0.27"
+once_cell    = "1"
