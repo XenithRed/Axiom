@@ -10,7 +10,7 @@ _Bedrock Edition ↔ Java Edition — written in Rust_
 
 <br>
 
-[![Build](https://img.shields.io/github/actions/workflow/status/axiom-rs/axiom/ci.yml?branch=main&style=flat-square&logo=github-actions&logoColor=white&label=build&color=0d1117&labelColor=161b22)](https://github.com/axiom-rs/axiom)
+[![Build](https://img.shields.io/github/actions/workflow/status/axiom-rs/axiom/ci.yml?branch=main&style=flat-square&logo=github-actions&logoColor=white&label=build&color=0d1117&labelColor=161b22)](https://github.com/XenithRed/axiom)
 [![Crates.io](https://img.shields.io/crates/v/axiom-server?style=flat-square&logo=rust&logoColor=white&label=crates.io&color=0d1117&labelColor=161b22)](https://crates.io/crates/axiom-server)
 [![License](https://img.shields.io/badge/license-MIT%20%2F%20Apache--2.0-0d1117?style=flat-square&logo=open-source-initiative&logoColor=white&labelColor=161b22)](LICENSE)
 [![Rust](https://img.shields.io/badge/rust-1.78%2B-0d1117?style=flat-square&logo=rust&logoColor=white&labelColor=161b22)](https://www.rust-lang.org)
